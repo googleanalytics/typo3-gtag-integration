@@ -3,4 +3,3 @@
 =============================================================================
 :Code Repository: https://github.com/adswerve/google_analytics_and_adwords
 :Extension key: "google_analytics_and_adwords"
-
