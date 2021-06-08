@@ -13,11 +13,17 @@
             <trans-unit id="tx_googleanalyticsandadwords_domain_model_service">
                 <source>Service</source>
             </trans-unit>
-            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.google_product">
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.product">
                 <source>Google Product</source>
             </trans-unit>
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.ga_version">
+                <source>Google Analytics Version</source>
+            </trans-unit>
             <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.service_id">
-                <source>Service Id</source>
+                <source>Id</source>
+            </trans-unit>
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.conversion_label">
+                <source>Conversion Label</source>
             </trans-unit>
         </body>
     </file>

@@ -3,7 +3,9 @@ CREATE TABLE tx_googleanalyticsandadwords_domain_model_service (
 	pid int(11) DEFAULT '0' NOT NULL,
 
 	product varchar(255) DEFAULT '' NOT NULL,
+	ga_version varchar(255) DEFAULT '' NOT NULL,
 	service_id varchar(255) DEFAULT '' NOT NULL,
+	conversion_label varchar(255) DEFAULT '' NOT NULL,
 
 	PRIMARY KEY (uid),
 	KEY parent (pid)
