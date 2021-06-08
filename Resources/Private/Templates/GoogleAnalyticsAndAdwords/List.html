@@ -4,15 +4,26 @@
 >
     <f:asset.script
         async="{true}"
-        identifier="1234"
+        identifier="125235234"
         priority="true"
         src="https://www.googletagmanager.com/gtag/js?id={services.0.serviceId}"
     ></f:asset.script>
-    <f:asset.script identifier="6565" priority="true">
-        window.dataLayer = window.dataLayer || []; function
-        gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    <f:asset.script identifier="65243265" priority="true">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('set', 'developer_id.dZGMxMT', true);
         <f:for each="{services}" as="service">
             gtag('config', '{service.serviceId}');
+        </f:for>
+        <f:for each="{services}" as="service">
+            <f:if condition="{service.product} == 'google-ads'">
+                var conversionLabel = '{service.serviceId}' + '/' + '{service.conversionLabel}';
+                gtag('event', 'conversion',
+                {'send_to': conversionLabel});
+            </f:if>
         </f:for>
     </f:asset.script>
 </html>
