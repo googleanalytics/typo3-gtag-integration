@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2021-06-01UTC15:31:480"
+        product-name="google_analytics_and_adwords">
+        <header>
+            <authorName>Matt Krilanovich</authorName>
+            <authorEmail>matt.krilanovich@adswerve.com</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="extension.title">
+                <source>Gtag</source>
+            </trans-unit>
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service">
+                <source>Service</source>
+            </trans-unit>
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.google_product">
+                <source>Google Product</source>
+            </trans-unit>
+            <trans-unit id="tx_googleanalyticsandadwords_domain_model_service.service_id">
+                <source>Service Id</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,22 @@
+{
+    "name": "adswerve/google-analytics-and-adwords",
+    "type": "typo3-cms-extension",
+    "description": "This TYPO3 extension installs gtag so you can use google analytics and google ads",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "Matt Krilanovich",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adswerve\\GoogleAnalyticsAndAdwords\\": "Classes/"
+        }
+    },
+    "require": {
+        "typo3/cms-core": "^10.4.0"
+    }
+}
