@@ -1,3 +1,3 @@
-# typo3_google_analytics_and_google_ads
+# google_analytics_and_adwords
 
 extension key: "google_analytics_and_adwords"
