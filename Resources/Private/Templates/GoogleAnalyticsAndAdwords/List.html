@@ -1,0 +1,18 @@
+<html
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    data-namespace-typo3-fluid="true"
+>
+    <f:asset.script
+        async="{true}"
+        identifier="1234"
+        priority="true"
+        src="https://www.googletagmanager.com/gtag/js?id={services.0.serviceId}"
+    ></f:asset.script>
+    <f:asset.script identifier="6565" priority="true">
+        window.dataLayer = window.dataLayer || []; function
+        gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+        <f:for each="{services}" as="service">
+            gtag('config', '{service.serviceId}');
+        </f:for>
+    </f:asset.script>
+</html>
