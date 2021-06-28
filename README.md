@@ -81,3 +81,5 @@ Then you can use the Extension Manager to activate the Extension Builder.
 
 You must add this plugin to all pages within your website.
 
+## Version
+v1.0
