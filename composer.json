@@ -26,6 +26,9 @@
             "Adswerve\\GoogleAnalyticsAndAdwords\\": "Classes"
         }
     },
+     "replace": {
+        "typo3-ter/google-analytics-and-adwords": "self.version"
+    },
     "require": {
         "typo3/cms-core": "^10.4.0"
     },
