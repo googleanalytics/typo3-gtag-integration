@@ -17,9 +17,9 @@ $EM_CONF[$_EXTKEY] = array (
   'author' => 'Matt Krilanovich',
   'author_company' => 'Adswerve',
   'author_email' => 'support@adswerve.com',
-  'state' => 'alpha',
+  'state' => 'stable',
   'clearCacheOnLoad' => true,
-  'version' => '10.4.0',
+  'version' => '1.0.0',
   'constraints' => 
   array (
     'depends' => 
