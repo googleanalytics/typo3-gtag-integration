@@ -75,9 +75,9 @@ Then you can use the Extension Manager to activate the Extension Builder.
 8. You now have stored your ID, this record is added into a relational database and will be referenced when adding the plugin to any page you want to track.
 
 9. After activating the extension (and clearing the cache), the plugin can be inserted on a page. Don’t forget to set the sys_folder, where the services are stored as the starting point. This can be done at the end of the plugin entry form in the backend and globally in the page configuration TSConfig:
-``` TCEFORM.tt_content.pages.PAGE_TSCONFIG_ID = 3 ```
-
-You must add a sys_folder to your directory to save the field rows to your database. This will persist your Analytics Measurement Info(Measurement Ids, Tracking Ids, Conversion Ids, etc)
+``` TCEFORM.tt_content.pages.PAGE_TSCONFIG_ID = 3 ```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note: Your PID may not be 3, you need to look at where your Services folder is by clicking into the folder and look at the top right.<br>
+![s](https://user-images.githubusercontent.com/60241457/123713162-aa286e80-d828-11eb-8bd9-63d71e2ee004.png)<br><br>
 
 You must add this plugin to all pages within your website.
 
