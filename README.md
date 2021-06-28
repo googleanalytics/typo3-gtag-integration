@@ -32,40 +32,47 @@ Then you can use the Extension Manager to activate the Extension Builder.
 
 
 ## Installation Guide
-1. To download the extension (TER, ….)<br>
-⋅⋅⋅a. Extension Manager<br>
-⋅⋅⋅⋅⋅⋅i. As a user with admin rights, navigate to the Extensions module.<br>
-⋅⋅⋅⋅⋅⋅i. In the select box, navigate to the Get Extensions sub-module.>br?
-⋅⋅⋅⋅⋅⋅iii. Click on "Update now“<br>
-⋅⋅⋅⋅⋅⋅iv. Enter the key google_analytics_and_adwords in the search field.<br>
-⋅⋅⋅⋅⋅⋅v. Click the cloud icon in the hit list to import and install the extension.<br>
+1. To download the extension (TER, ….).
 
-⋅⋅⋅b. From the TYPO3 Extension Repository (https://extensions.typo3.org/)<br>
-⋅⋅⋅⋅⋅⋅i. Search for the key google_analytics_and_adwords<br>
-⋅⋅⋅⋅⋅⋅ii. Download the ZIP file.<br>
-⋅⋅⋅⋅⋅⋅iii. Unpack the ZIP file and move the content into the TYPO3 extension directory (typo3conf/ext/).<br>
-⋅⋅⋅⋅⋅⋅iv. Navigate in the TYPO3 Backend as a user with admin rights into the module Extensions.<br>
-⋅⋅⋅⋅⋅⋅v. Look for the extension google_analytics_and_adwords<br>
-⋅⋅⋅⋅⋅⋅vi. Click on the cube icon with the plus to install the extension<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Extension Manager
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. As a user with admin rights, navigate to the Extensions module.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. In the select box, navigate to the Get Extensions sub-module.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. Click on "Update now“
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Enter the key google_analytics_and_adwords in the search field.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Click the cloud icon in the hit list to import and install the extension.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. From the TYPO3 Extension Repository (https://extensions.typo3.org/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Search for the key google_analytics_and_adwords<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Download the ZIP file.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. Unpack the ZIP file and move the content into the TYPO3 extension directory (typo3conf/ext/).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Navigate in the TYPO3 Backend as a user with admin rights into the module Extensions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Look for the extension google_analytics_and_adwords<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. Click on the cube icon with the plus to install the extension<br>
 
 2. After successfully downloading the extension in step 1, go to "List" Modules within your Typo3 backend.
-⋅⋅⋅a. Create a Sys Folder within any of your folders containing data and name it "Services"<br>
-⋅⋅⋅⋅⋅⋅i. I arbitrarily used my "Shared Content" folder but you could use any folder.<br>
-![step1_ext](https://user-images.githubusercontent.com/60241457/123701755-2023da00-d817-11eb-9e4e-81966023d84b.png) <br>
-3. After Creating your Services folder, right click on the folder and enable it
-![step2_ext](https://user-images.githubusercontent.com/60241457/123702569-2797b300-d818-11eb-88e8-7c8d441996d2.png) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create a Sys Folder within any of your folders containing data and name it "Services"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. I arbitrarily used my "Shared Content" folder but you could use any folder.<br>
+![step1_ext](https://user-images.githubusercontent.com/60241457/123701755-2023da00-d817-11eb-9e4e-81966023d84b.png) <br><br>
+3. After Creating your Services folder, right click on the folder and enable it<br>
+![step2_ext](https://user-images.githubusercontent.com/60241457/123702569-2797b300-d818-11eb-88e8-7c8d441996d2.png) <br><br>
 
-4. To enter your Measurement ID (GA4, blah blah blah). Click the "+" icon to create a record to store your Measurement ID.
+4. To enter your Measurement ID (GA4, blah blah blah). Click the "+" icon to create a record to store your Measurement ID.<br>
+![step4_ext](https://user-images.githubusercontent.com/60241457/123705532-f0c39c00-d81b-11eb-8249-b4416f08435e.png)<br><br>
 
-5. Find the "Global Site Tag (gtag.js) and click on Service.
+5. Find the "Global Site Tag (gtag.js) and click on Service.<br>
+![Screen Shot 2021-06-28 at 2 20 26 PM](https://user-images.githubusercontent.com/60241457/123705573-02a53f00-d81c-11eb-8092-16bf0ecfe81c.png)<br><br>
 
 6. Enter your ID and Click Save
-⋅⋅⋅Depending on your service (GA4, UA, Google Ads), you'll need to make sure you enter the correct format.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Depending on your service (GA4, UA, Google Ads), you'll need to make sure you enter the correct format.<br>
+![Screen Shot 2021-06-28 at 2 20 54 PM](https://user-images.githubusercontent.com/60241457/123705645-1781d280-d81c-11eb-9f3e-7b2370d98d32.png)<br><br>
 
-7. Click Close
+7. Click Close<br>
+![Screen Shot 2021-06-28 at 2 21 25 PM](https://user-images.githubusercontent.com/60241457/123705761-32ecdd80-d81c-11eb-9690-2bd7706ed6d5.png)<br><br>
 
 8. You now have stored your ID, this record is added into a relational database and will be referenced when adding the plugin to any page you want to track.
-
 
 9. After activating the extension (and clearing the cache), the plugin can be inserted on a page. Don’t forget to set the sys_folder, where the services are stored as the starting point. This can be done at the end of the plugin entry form in the backend and globally in the page configuration TSConfig:
 ``` TCEFORM.tt_content.pages.PAGE_TSCONFIG_ID = 3 ```
