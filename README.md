@@ -25,7 +25,7 @@ Check out the [link text “Installation & upgrade guide”]: https://docs.typo3
 The system extensions extbase and fluid are required.
 To install this extension by cloning the source, open the terminal and go to the directory typo3conf/ext/ and enter:
 
-``` git clone https://github.com/adswerve/google_analytics_and_adwords.git ```
+``` git clone https://github.com/adswerve/google_analytics_and_adwords.git .```
 
 To install this extension by downloading the source, open the url Extension Builder. There you can download a ZIP file, which you can import directly into the Extension Manager. Alternatively you copy the unpacked extension folder to the directory typo3conf/ext/.
 Then you can use the Extension Manager to activate the Extension Builder.
