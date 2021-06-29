@@ -59,7 +59,7 @@ Then you can use the Extension Manager to activate the Extension Builder.
 3. After Creating your Services folder, right click on the folder and enable it<br>
 ![step2_ext](https://user-images.githubusercontent.com/60241457/123702569-2797b300-d818-11eb-88e8-7c8d441996d2.png) <br><br>
 
-4. To enter your Measurement ID (GA4, blah blah blah). Click the "+" icon to create a record to store your Measurement ID.<br>
+4. To enter your Measurement ID(GA4) or Tracking ID(UA). Click the "+" icon to create a record to store your Measurement ID.<br>
 ![step4_ext](https://user-images.githubusercontent.com/60241457/123705532-f0c39c00-d81b-11eb-8249-b4416f08435e.png)<br><br>
 
 5. Find the "Global Site Tag (gtag.js) and click on Service.<br>
