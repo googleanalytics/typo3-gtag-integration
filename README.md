@@ -63,7 +63,8 @@ Then you can use the Extension Manager to activate the Extension Builder.
 ![step4_ext](https://user-images.githubusercontent.com/60241457/123705532-f0c39c00-d81b-11eb-8249-b4416f08435e.png)<br><br>
 
 5. Find the "Global Site Tag (gtag.js) and click on Service.<br>
-![Screen Shot 2021-06-28 at 2 20 26 PM](https://user-images.githubusercontent.com/60241457/123705573-02a53f00-d81c-11eb-8092-16bf0ecfe81c.png)<br><br>
+![gtag_service](https://user-images.githubusercontent.com/60241457/123926107-6b85d780-d940-11eb-90cb-b9428634dbf3.png)
+<br><br>
 
 6. Enter your ID and Click Save
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Depending on your service (GA4, UA, Google Ads), you'll need to make sure you enter the correct format.<br>
