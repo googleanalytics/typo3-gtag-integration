@@ -1,5 +1,5 @@
 # Global Site Tag (gtag.js) (Google Analytics, Google Ads, Google Marketing Platform)
-This Extension provides an interface to implement Google Analytics and Google Ads by natively using gtag library. With this extension you can implement Universal Analytics, Google Analytics 4, and Google Ads together.
+This Typo3 Extension provides an interface to implement Google Analytics and Google Ads by natively using gtag library. With this extension you can implement Universal Analytics, Google Analytics 4, and Google Ads together.
 
 #### Code Repository: https://github.com/adswerve/google_analytics_and_adwords
 
